@@ -11,5 +11,5 @@ export default defineConfig({
     }),
     react(),
   ],
-  base: "/ai_app",
+  // base: "/ai_app",
 });
