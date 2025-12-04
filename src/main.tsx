@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import "@mantine/core/styles.layer.css";
 import { MantineProvider } from "@mantine/core";
-import { RouterProvider, createRouter } from "@tanstack/react-router";
+import { RouterProvider, createHashHistory, createRouter } from "@tanstack/react-router";
 
 import { routeTree } from "./routeTree.gen";
 
@@ -12,7 +12,8 @@ const router = createRouter({
   defaultPreload: "intent",
   defaultStaleTime: 2000,
   scrollRestoration: true,
-  basepath: "/ai_app",
+  // basepath: "/ai_app",
+  history: createHashHistory(),
 });
 
 declare module "@tanstack/react-router" {
