@@ -1,0 +1,14 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: #eeaeca;
+  background: linear-gradient(141deg, #3a081d 0%, #001329 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+

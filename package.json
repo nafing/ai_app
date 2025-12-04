@@ -1,0 +1,52 @@
+{
+  "name": "ai_app",
+  "homepage": "https://nafing.github.io/ai_app/",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@mantine/core": "^8.3.9",
+    "@mantine/dates": "^8.3.9",
+    "@mantine/form": "^8.3.9",
+    "@mantine/hooks": "^8.3.9",
+    "@mantine/modals": "^8.3.9",
+    "@mantine/notifications": "^8.3.9",
+    "@openrouter/sdk": "^0.2.9",
+    "@tabler/icons-react": "^3.35.0",
+    "@tanstack/react-router": "^1.139.14",
+    "@tanstack/react-router-devtools": "^1.139.14",
+    "dayjs": "^1.11.19",
+    "dexie": "^4.2.1",
+    "dexie-react-hooks": "^4.2.0",
+    "gh-pages": "^6.3.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@tanstack/router-plugin": "^1.139.14",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react-swc": "^4.2.2",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "postcss": "^8.5.6",
+    "postcss-preset-mantine": "^1.18.0",
+    "postcss-simple-vars": "^7.0.1",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.48.1",
+    "vite": "^7.2.6"
+  }
+}
